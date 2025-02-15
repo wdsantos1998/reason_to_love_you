@@ -84,8 +84,7 @@ export default {
 
 .valentine-background {
   display: flex;
-  padding: 10px 20px;
-  Width: 100%;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   height: 100vh;
@@ -112,7 +111,7 @@ export default {
 
 .love-note {
   background-color: white;
-  padding: 20px;
+  padding: 20px 20px;
   border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   width: 80%;
@@ -133,12 +132,11 @@ export default {
   font-size: 1.5rem;
   color: #d6336c;
   font-weight: bold;
-  margin: 20px 0;
+  margin: 20px 10px;
 }
 
 .heart-button {
   background-color: #ff4f81;
-  margin-top: 20px;
   color: white;
   font-size: 18px;
   border: none;
@@ -159,7 +157,6 @@ export default {
   border: none;
   border-radius: 50px;
   padding: 12px 24px;
-  margin-top: 20px;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -174,7 +171,6 @@ export default {
   width: 100%;
   align-items: center;
   row-gap: 20px;
-  height: 300px;
 }
 .welcome {
   display: flex;
@@ -188,8 +184,8 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    Width: 100%;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background: linear-gradient(to bottom right, #ff758c, #ff7eb3);
     font-family: "Cursive", Arial, sans-serif;
     text-align: center;

@@ -178,14 +178,14 @@ export default {
   align-items: center;
   row-gap: 20px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .valentine-background {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background: linear-gradient(to bottom right, #ff758c, #ff7eb3);
     font-family: "Cursive", Arial, sans-serif;
     text-align: center;

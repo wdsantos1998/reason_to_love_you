@@ -84,11 +84,11 @@ export default {
 
 .valentine-background {
   display: flex;
-  padding: 10px;
+  padding: 10px 20px;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   height: 100vh;
+  justify-content: center;
   background: linear-gradient(to bottom right, #ff758c, #ff7eb3);
   font-family: "Cursive", Arial, sans-serif;
   text-align: center;
@@ -119,12 +119,12 @@ export default {
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: #ff4f81;
 }
 
 .subtitle {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #333;
 }
 
@@ -184,7 +184,7 @@ export default {
 @media only screen and (max-width: 600px) {
   .valentine-background {
     display: flex;
-    padding: 20px;
+    padding: 0 20px;
     flex-direction: column;
     align-items: center;
     justify-content: center;

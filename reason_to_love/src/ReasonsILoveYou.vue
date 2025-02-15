@@ -188,7 +188,7 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 90%;
+    height: 100vh;
     background: linear-gradient(to bottom right, #ff758c, #ff7eb3);
     font-family: "Cursive", Arial, sans-serif;
     text-align: center;
@@ -198,6 +198,7 @@ export default {
     flex-direction: column;
     align-content: center;
     width: 100%;
+    height: auto;
     align-items: center;
     row-gap: 10px;
   }

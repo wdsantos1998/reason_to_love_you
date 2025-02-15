@@ -85,6 +85,7 @@ export default {
 .valentine-background {
   display: flex;
   padding: 10px 20px;
+  Width: 100%;
   flex-direction: column;
   align-items: center;
   height: 100vh;
@@ -184,10 +185,10 @@ export default {
 @media only screen and (max-width: 600px) {
   .valentine-background {
     display: flex;
-    padding: 0 20px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    Width: 100%;
     height: 100vh;
     background: linear-gradient(to bottom right, #ff758c, #ff7eb3);
     font-family: "Cursive", Arial, sans-serif;
@@ -197,6 +198,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-content: center;
+    justify-content: center;
     width: 100%;
     height: auto;
     align-items: center;
@@ -207,6 +209,29 @@ export default {
     color: #d6336c;
     font-weight: bold;
     margin: 5px 0;
+  }
+
+  .couple-img{
+    width: 150px;
+    height: 150px;
+  }
+
+  .main-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-size: 1rem;
+    color: #ff4f81;
+  }
+
+  .subtitle {
+    font-size: 0.8rem;
+    color: #333;
   }
 
 }

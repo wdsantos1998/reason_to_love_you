@@ -50,6 +50,7 @@ export default {
         {index: 13, reason: "Your smile is so cute! I feel like I'm in heaven when I see you smiling."},
         {index: 14, reason: "Your eyes are so beautiful. I can feel your love when you look at me."},
         {index: 15, reason: "I love that you want to serve your country. You make me proud."},
+        {index: 16, reason: "I love that you make trip plans for us. I love to travel with you."},
       ],
       startGameState: false,
       finishGameState: false,
